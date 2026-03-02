@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source:*)",
+      "Bash(python -c \" import inspect from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase print\\(inspect.getsource\\(NeuronAttentionBase.__init__\\)\\) \")",
+      "Bash(python -c \" import inspect from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase print\\(inspect.getsource\\(NeuronAttentionBase.forward\\)\\) \")",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(grep:*)",
+      "Bash(1:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(xxd:*)",
+      "Bash(/home/ubuntu/model-translation/qwen2-vl/tests/test_vision_attention_vision.py:*)",
+      "Bash(file:*)"
+    ]
+  }
+}
