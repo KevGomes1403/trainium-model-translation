@@ -56,7 +56,7 @@ Model folders typically include:
 For a multimodal example walkthrough, see:
 
 - `models/qwen2-vl/README.md`
-- `models/smol_vla/README.md` - SmolVLA on Trainium 3, including the LIBERO demo video
+- `models/smol_vla/README.md`
 
 ## Status
 

@@ -5,10 +5,10 @@ Distributed Inference (NxDI)**. Three compiled
 subgraphs, maximally on-Neuron, written in the production NxDI structure.
 Driven end-to-end in a closed-loop LIBERO simulation.
 
-<video src="./demo_libero_object_t2_s42.mp4" controls autoplay loop muted playsinline width="100%" aria-label="Demo of SmolVLA running on Trainium 3 in a closed-loop LIBERO object simulation"></video>
+[![Demo of SmolVLA running on Trainium 3 in a closed-loop LIBERO object simulation](./demo_libero_object_t2_s42.gif)]
 
 *Demo of SmolVLA running on Trainium 3 in a closed-loop `libero_object`
-simulation*
+simulation.*
 
 ## Layout
 
