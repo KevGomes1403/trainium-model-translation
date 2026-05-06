@@ -13,7 +13,10 @@
       "Bash(find:*)",
       "Bash(xxd:*)",
       "Bash(/home/ubuntu/model-translation/qwen2-vl/tests/test_vision_attention_vision.py:*)",
-      "Bash(file:*)"
+      "Bash(file:*)",
+      "Bash(cp /home/ubuntu/trainium-model-translation/.claude/skills/trainium-model-translate/scripts/block_testing_utils.py /home/ubuntu/trainium-model-translation/models/gemma4/neuron/)",
+      "Bash(mkdir -p /home/ubuntu/trainium-model-translation/models/gemma4/neuron/tests)",
+      "Bash(cp /home/ubuntu/trainium-model-translation/.claude/skills/trainium-model-translate/scripts/block_testing_utils.py /home/ubuntu/trainium-model-translation/models/gemma4/neuron/tests/)"
     ]
   }
 }

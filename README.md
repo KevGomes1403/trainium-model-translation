@@ -42,6 +42,7 @@ Under `models/`:
 - `olmo-3`
 - `qwen2-vl`
 - `qwen2.5-vl`
+- `smol_vla` - SmolVLA LIBERO policy port to Trainium 3 with a closed-loop demo
 
 All model ports currently in this repository were translated using the skill workflow with Claude Code.
 
@@ -55,23 +56,7 @@ Model folders typically include:
 For a multimodal example walkthrough, see:
 
 - `models/qwen2-vl/README.md`
-
-## Typical Translation Flow
-
-1. Identify model blocks (attention, MLP, embeddings, norms, vision blocks, etc.).
-2. Replace compatible PyTorch layers with NxDI/Neuron primitives.
-3. Map state dict keys from HF naming to Neuron module naming.
-4. Validate numerical behavior against the PyTorch reference.
-5. Run inference and iterate on any gaps.
-
-## Environment
-
-This repo expects a trn EC2 instance with Neuron 2.9. The flow and translated models have been verified on the `trn1.32xlarge` instance.
-
-## References
-
-- `docs/NXDI_VLM_REPORT.md` - NxDI capabilities and multimodal translation notes
-- `agents/nxdi-block-translator.md` - specialized NxDI block translation agent guidance
+- `models/smol_vla/README.md` - SmolVLA on Trainium 3, including the LIBERO demo video
 
 ## Status
 
