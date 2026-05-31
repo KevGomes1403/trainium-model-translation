@@ -1,2 +1,4 @@
 PostSPMD*
 **/neuronxcc/
+__pycache__/
+__upstream/
