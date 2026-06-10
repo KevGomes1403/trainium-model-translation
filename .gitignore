@@ -3,3 +3,4 @@ PostSPMD*
 __pycache__/
 __upstream/
 *.hlo
+profiles/
