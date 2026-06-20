@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; [ -n \"$f\" ] || exit 0; case \"$f\" in *.py) /opt/aws_neuronx_venv_pytorch_2_9_nxd_inference/bin/python -m ruff format \"$f\" >/dev/null 2>&1; /opt/aws_neuronx_venv_pytorch_2_9_nxd_inference/bin/python -m ruff check \"$f\";; esac; } || true",
+            "statusMessage": "Running ruff on edited file"
+          }
+        ]
+      }
+    ]
+  }
+}
